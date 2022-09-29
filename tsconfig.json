@@ -3,6 +3,14 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "cypressjest-lib": [
+        "dist/cypressjest-lib"
+      ],
+      "cypressjest-lib/e2e": [
+        "dist/cypressjest-lib/e2e"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
